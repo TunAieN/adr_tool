@@ -1,0 +1,706 @@
+{
+  "profile": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.FrameLayout[@content-desc=\"Profile\"]/android.widget.ImageView"
+    },
+    {
+      "by": "accessibility id",
+      "value": "Profile"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@content-desc='Profile']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Profile']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Hồ sơ']"
+    }
+  ],
+  "loginEntry": [
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/z78"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/z78\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Log in']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Login']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Đăng nhập']"
+    }
+  ],
+  "signupEntry": [
+    {
+      "by": "xpath",
+      "value": "//*[@text='Sign up']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Đăng ký']"
+    }
+  ],
+  "continueGoogle": [
+    {
+      "by": "xpath",
+      "value": "//*[contains(@text,'Continue with Google')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[contains(@content-desc,'Continue with Google')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[contains(@text,'Tiếp tục với Google')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[contains(@text,\"Continue with Google\") or contains(@content-desc,\"Continue with Google\") or contains(@text,\"Tiếp tục với Google\") or contains(@content-desc,\"Tiếp tục với Google\")]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[.//*[contains(@text,\"Continue with Google\") or contains(@text,\"Tiếp tục với Google\")]]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.view.View[contains(@content-desc,\"Continue with Google\") or contains(@content-desc,\"Tiếp tục với Google\")]"
+    },
+    {
+      "by": "xpath",
+      "value": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View/android.view.View[3]/android.widget.Button"
+    }
+  ],
+  "expandLoginOptions": [
+    {
+      "by": "xpath",
+      "value": "//androidx.compose.ui.platform.ComposeView//*[contains(translate(@content-desc,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'more login') or contains(translate(@content-desc,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'show more') or contains(translate(@content-desc,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'expand')]/ancestor-or-self::*[@clickable='true'][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//androidx.compose.ui.platform.ComposeView//android.widget.ImageView[contains(translate(@content-desc,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'more') or contains(translate(@content-desc,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'expand')]/ancestor-or-self::*[@clickable='true'][1]"
+    }
+  ],
+  "googleVerifyClose": [
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@resource-id=\"root\"]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.Button"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@resource-id='root']//android.widget.Button[@content-desc='Close' or @content-desc='Dismiss' or @text='Close' or @text='X' or @text='×']"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@resource-id='root']//*[@content-desc='Close' or @content-desc='Dismiss']/ancestor-or-self::android.widget.Button[1]"
+    }
+  ],
+  "googleOneTapClose": [
+    {
+      "by": "xpath",
+      "value": "//*[@content-desc='Close' or @content-desc='Dismiss' or @text='Close' or @text='X' or @text='×']/ancestor-or-self::*[@clickable='true'][1]"
+    }
+  ],
+  "useAnotherAccount": [
+    {
+      "by": "xpath",
+      "value": "//*[contains(@resource-id,'add_account')]/ancestor-or-self::*[@clickable=\"true\"][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.support.v7.widget.RecyclerView[@resource-id=\"com.google.android.gms:id/list\"]/android.widget.LinearLayout[@resource-id=\"com.google.android.gms:id/container\"][descendant-or-self::*[normalize-space(@text)='Add another account' or normalize-space(@content-desc)='Add another account' or normalize-space(@text)='Use another account' or normalize-space(@content-desc)='Use another account' or normalize-space(@text)='Thêm tài khoản khác' or normalize-space(@content-desc)='Thêm tài khoản khác' or normalize-space(@text)='Sử dụng tài khoản khác' or normalize-space(@content-desc)='Sử dụng tài khoản khác']]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[normalize-space(@text)='Add another account' or normalize-space(@content-desc)='Add another account' or normalize-space(@text)='Use another account' or normalize-space(@content-desc)='Use another account' or normalize-space(@text)='Thêm tài khoản khác' or normalize-space(@content-desc)='Thêm tài khoản khác' or normalize-space(@text)='Sử dụng tài khoản khác' or normalize-space(@content-desc)='Sử dụng tài khoản khác']/ancestor-or-self::*[@clickable=\"true\"][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[normalize-space(@text)='Add another account' or normalize-space(@content-desc)='Add another account' or normalize-space(@text)='Use another account' or normalize-space(@content-desc)='Use another account' or normalize-space(@text)='Thêm tài khoản khác' or normalize-space(@content-desc)='Thêm tài khoản khác' or normalize-space(@text)='Sử dụng tài khoản khác' or normalize-space(@content-desc)='Sử dụng tài khoản khác']"
+    }
+  ],
+  "googleEmail": [
+    {
+      "by": "id",
+      "value": "identifierId"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@resource-id=\"yDmH0d\"]/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View[1]/android.widget.TextView[2]"
+    }
+  ],
+  "googleEmailNext": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Next\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Tiếp theo\"]"
+    }
+  ],
+  "googlePassword": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@password='true']"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@resource-id=\"password\"]/android.view.View/android.widget.TextView[2]"
+    }
+  ],
+  "googlePasswordNext": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Next\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Tiếp theo\"]"
+    }
+  ],
+  "googleConsent": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"I agree\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='I agree']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Tôi đồng ý']"
+    }
+  ],
+  "profileMenu": [
+    {
+      "by": "accessibility id",
+      "value": "Profile menu"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Profile menu\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Menu Hồ sơ\"]"
+    }
+  ],
+  "settingsPrivacy": [
+    {
+      "by": "accessibility id",
+      "value": "Settings and privacy"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Settings and privacy\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text=\"Settings and privacy\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text=\"Cài đặt và quyền riêng tư\"]"
+    }
+  ],
+  "logout": [
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@content-desc=\"Log out\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@content-desc=\"Đăng xuất\"]"
+    }
+  ],
+  "logoutConfirm": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Log out\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Đăng xuất\"]"
+    }
+  ],
+  "googleChooser": [
+    {
+      "by": "xpath",
+      "value": "//*[contains(@text,'Choose an account')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[contains(@content-desc,'Choose an account')]"
+    }
+  ],
+  "googleEmailFocus": [
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@resource-id=\"yDmH0d\"]/android.view.View[2]/android.view.View[2]/android.view.View/android.view.View[1]/android.widget.TextView[2]"
+    },
+    {
+      "by": "id",
+      "value": "identifierId"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id='identifierId']"
+    }
+  ],
+  "googlePasswordFocus": [
+    {
+      "by": "xpath",
+      "value": "//android.view.View[@resource-id=\"password\"]/android.view.View/android.widget.TextView[2]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@password='true']"
+    }
+  ],
+  "googleFocusedInput": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@focused='true']"
+    }
+  ],
+  "googleEditableInput": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText"
+    }
+  ],
+  "androidPermissionDeny": [
+    {
+      "by": "id",
+      "value": "com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button\"]"
+    },
+    {
+      "by": "id",
+      "value": "com.android.permissioncontroller:id/permission_deny_button"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_deny_button\"]"
+    }
+  ],
+  "profileHandle": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[starts-with(@text,'@')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[starts-with(@content-desc,'@')]"
+    }
+  ],
+  "profileLoggedInMarker": [
+    {
+      "by": "xpath",
+      "value": "//*[@text='Edit profile']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Sửa hồ sơ']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@content-desc='Edit profile']"
+    }
+  ],
+  "profileUsernameButton": [
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/t_k"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/t_k\"]"
+    }
+  ],
+  "tiktokWelcomeBack": [
+    {
+      "by": "xpath",
+      "value": "//*[contains(@text,'Welcome back')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[contains(@content-desc,'Welcome back')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Add another account']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@content-desc='Add another account']"
+    }
+  ],
+  "tiktokAddAnotherAccount": [
+    {
+      "by": "xpath",
+      "value": "//*[@text='Add another account' or @content-desc='Add another account' or @text='Thêm tài khoản khác' or @content-desc='Thêm tài khoản khác']/ancestor-or-self::*[@clickable='true'][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Add another account' or @content-desc='Add another account' or @text='Thêm tài khoản khác' or @content-desc='Thêm tài khoản khác']"
+    },
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/z78"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/z78\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@text='Add another account']"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@content-desc='Add another account']"
+    }
+  ],
+  "tiktokLoginMethods": [
+    {
+      "by": "xpath",
+      "value": "//*[contains(@text,'Continue with Google')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[contains(@content-desc,'Continue with Google')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[contains(@text,'Tiếp tục với Google')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[contains(@content-desc,'Tiếp tục với Google')]"
+    }
+  ],
+  "useAnotherAccountLabel": [
+    {
+      "by": "xpath",
+      "value": "//*[contains(@resource-id,'add_account')]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[normalize-space(@text)='Add another account' or normalize-space(@content-desc)='Add another account' or normalize-space(@text)='Use another account' or normalize-space(@content-desc)='Use another account' or normalize-space(@text)='Thêm tài khoản khác' or normalize-space(@content-desc)='Thêm tài khoản khác' or normalize-space(@text)='Sử dụng tài khoản khác' or normalize-space(@content-desc)='Sử dụng tài khoản khác']"
+    }
+  ],
+  "profileEditButton": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Edit\"]"
+    }
+  ],
+  "profileNameEntry": [
+    {
+      "by": "xpath",
+      "value": "(//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/mtq\"])[1]"
+    },
+    {
+      "by": "xpath",
+      "value": "(//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/mud\"])[1]"
+    }
+  ],
+  "profileNameClear": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.ImageView[@content-desc=\"Close\"]"
+    }
+  ],
+  "profileEditorInput": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/hvc\"]"
+    }
+  ],
+  "profileEditorSave": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Save\"]"
+    }
+  ],
+  "profileNameConfirm": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Confirm\"]"
+    }
+  ],
+  "profileBioEntry": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/tvContent\"]"
+    }
+  ],
+  "profileEditorBack": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Back to previous screen\"]"
+    }
+  ],
+  "profilePhotoCamera": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.ImageView[@content-desc=\"Camera\"]"
+    }
+  ],
+  "profilePhotoUpload": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Upload photo\"]"
+    }
+  ],
+  "profileGalleryItems": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/l3z\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/l37\"]"
+    }
+  ],
+  "profilePhotoNext": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/y3s\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/y1v\"]"
+    }
+  ],
+  "profilePhotoConfirm": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/tv_confirm\"]"
+    }
+  ],
+  "profilePhotoSavePost": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Save & post\"]"
+    }
+  ],
+  "profilePhotoNode": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Profile photo\"]/android.widget.ImageView[2]"
+    }
+  ],
+  "profileNameOpenCandidates": [
+    {
+      "by": "xpath",
+      "value": "(//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/mud\"])[1]"
+    },
+    {
+      "by": "xpath",
+      "value": "(//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/mud\"])[1]/ancestor::*[@clickable=\"true\"][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@text=\"Name\"]/ancestor::*[@clickable=\"true\"][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@text=\"Name\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "(//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/mtq\"])[1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@text=\"Name\"]/.."
+    },
+    {
+      "by": "xpath",
+      "value": "(//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/mtq\"])[1]/.."
+    }
+  ],
+  "homeTab": [
+    {
+      "by": "accessibility id",
+      "value": "Home"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@content-desc=\"Home\" or @text=\"Home\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//*[@content-desc=\"Trang chủ\" or @text=\"Trang chủ\"]"
+    }
+  ],
+  "commentEntry": [
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/el_"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.ImageView[@resource-id=\"com.ss.android.ugc.trill:id/el_\"]"
+    }
+  ],
+  "commentInput": [
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/ekm"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/ekm\"]"
+    }
+  ],
+  "firstLaunchTermsContinue": [
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/f0x"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/f0x\"]"
+    },
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/f19"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@resource-id=\"com.ss.android.ugc.trill:id/f19\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Agree and continue\"]"
+    }
+  ],
+  "firstLaunchGenderFirst": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.ScrollView/android.view.View[1]/android.widget.Button"
+    }
+  ],
+  "firstLaunchGenderContinue": [
+    {
+      "by": "xpath",
+      "value": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View[2]/android.widget.Button"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Continue\"]"
+    }
+  ],
+  "firstLaunchInterestSkip": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@text=\"Skip\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View[1]/android.widget.Button"
+    }
+  ],
+  "profileBioOpenCandidates": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@text=\"Bio\"]/ancestor::*[@clickable=\"true\"][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@text=\"Bio\"]/.."
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/tvContent\"]/ancestor::*[@clickable=\"true\"][1]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/tvContent\"]/.."
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@text=\"Bio\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/tvContent\"]"
+    }
+  ],
+  "profileEditEntry": [
+    {
+      "by": "id",
+      "value": "com.ss.android.ugc.trill:id/tlh"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.FrameLayout[@resource-id=\"com.ss.android.ugc.trill:id/tlh\"]"
+    }
+  ],
+  "profileEditUsername": [
+    {
+      "by": "xpath",
+      "value": "(//android.widget.TextView[@resource-id=\"com.ss.android.ugc.trill:id/mud\"])[2]"
+    }
+  ],
+  "profileNameEditorInput": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/hw7\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/lfn\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/hvc\"]"
+    }
+  ],
+  "profileNameEditorInputNew": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/hw7\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/lfn\"]"
+    }
+  ],
+  "profileBioEditorInput": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/hw7\"]"
+    },
+    {
+      "by": "xpath",
+      "value": "//android.widget.EditText[@resource-id=\"com.ss.android.ugc.trill:id/hvc\"]"
+    }
+  ],
+  "profileNavigationBack": [
+    {
+      "by": "xpath",
+      "value": "//android.widget.Button[@content-desc=\"Back to previous screen\"]"
+    }
+  ]
+}

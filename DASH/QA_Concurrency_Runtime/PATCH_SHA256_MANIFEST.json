@@ -1,0 +1,49 @@
+{
+  "base": "V2170_ADAPTIVE_LIVE_VIEWER_V3_FULL_SOURCE.zip",
+  "modified_files": [
+    {
+      "file": "AndroidMultiDeviceV1/Core/DeviceExecution.cs",
+      "previous_sha256": "661449030100a22df922999261bfc419024a9917e83ad93c76f0d4a8f85ade87",
+      "new_sha256": "7362292b7e1609d6b0429d11e40db03e2e24cc3e4126cd4277d56c66aa4fe768",
+      "changed": true
+    },
+    {
+      "file": "AndroidMultiDeviceV1/Core/DeviceOrchestrator.cs",
+      "previous_sha256": "2e8f6d5331e3bd9ce92791819c56d8891118d6e4feb614162d0043a1a46c800c",
+      "new_sha256": "0aaf7c599f6d489f9ee3f670ba8c7d2d69afad865148506bd4e7f5e23031b231",
+      "changed": true
+    },
+    {
+      "file": "AndroidMultiDeviceV1/Core/LiveAutonomousWorkflow.cs",
+      "previous_sha256": "284b288c0eba82a71bab1abba7f00eff10de79d157c3a53b26f478b13620b8a7",
+      "new_sha256": "4c162fac141b5d1fd6e8549077589cffb5810879b10a6d3c74568e053f274f75",
+      "changed": true
+    },
+    {
+      "file": "AndroidMultiDeviceV1/Core/LiveRoomContinuousCoordinator.cs",
+      "previous_sha256": "694279bc0bc7e364fc90f46be5ecb902dabf0146eef4591cf892c084d3a6a002",
+      "new_sha256": "b9f6b16120abd3439b6562ae5b0288b06772a91d16726bc44bf665f8c62baacd",
+      "changed": true
+    },
+    {
+      "file": "AndroidMultiDeviceV1/Core/LiveVerifiedSessionHandoff.cs",
+      "previous_sha256": "63abd2c5288c22a07cccc81816daa3e165010bc02d3114e977357e9c46486880",
+      "new_sha256": "e6dee56ce117d114b8b806634d8076e24466d82b78e0947556a224de5c4c2f23",
+      "changed": true
+    },
+    {
+      "file": "AndroidMultiDeviceV1/LiveSearchDialog.cs",
+      "previous_sha256": "f27b531a1192c5b5b095a03c98a938bc8d4ee98550bd8e5a28e48c71932f1d06",
+      "new_sha256": "7adfd229f929314bae71b298bcbf48717d3a7082c2099f60601fab3de963bfc9",
+      "changed": true
+    },
+    {
+      "file": "AndroidMultiDeviceV1/MainForm.cs",
+      "previous_sha256": "6402c3602fea5b71f01844ffe8c576248660cbcf185fee64424242a814b1edd7",
+      "new_sha256": "1a8c695049272e8543ab65797d292f931931d3f8135b1d6ebfdd4627e5d27452",
+      "changed": true
+    }
+  ],
+  "validation": "Static source wiring verified; .NET SDK/Appium not available in build container. QA_Concurrency_Runtime must be run on Windows.",
+  "test_command": "dotnet run --project QA_Concurrency_Runtime\\QA_Concurrency_Runtime.csproj -c Release"
+}

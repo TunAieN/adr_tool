@@ -1,0 +1,10 @@
+V1.2 — AUTO PREFLIGHT START
+
+* Start máy / Start tất cả luôn tự động gọi SessionReconciler trước phiên.
+* UI: Kiểm tra TikTok -> Chẩn đoán UI (tùy chọn); bỏ Kiểm tra lại login.
+* Sau Google Login chưa rõ trạng thái: tự xác minh UI tối đa 3 phút.
+* Không thao tác vào CAPTCHA/2FA; chỉ tiếp tục khi xác minh đúng TikTok handle.
+* Nếu bị hạn chế/tài khoản khác/quá hạn: dừng riêng máy và ghi log.
+
+CÀI: Chép MainForm.cs, Core/DeviceOrchestrator.cs, Core/TikTokStateManager.cs vào đúng thư mục rồi BUILD_RUN.bat.
+Không xóa kho tài khoản.

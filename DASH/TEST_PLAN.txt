@@ -1,0 +1,20 @@
+ANDROID MULTI-DEVICE V1 — KỊCH BẢN KIỂM THỬ THỰC TẾ
+
+[ ] dotnet --version hien thi SDK 8.x hoac moi hon
+[ ] Chay BUILD_RUN.bat build SUCCESS, mo WinForms
+[ ] appium server nghe 127.0.0.1:4723
+[ ] adb devices -l thay >=2 thiet bi o trang thai device
+[ ] Refresh ADB nhan dung serial va systemPort khac nhau
+[ ] Import TXT co dong email|password; loai trung; khong hien mat khau trong log
+[ ] Gan 2 account khac nhau cho 2 may; moi may chi lay account duoc gan
+[ ] Start 2 may dong thoi va xem log cua tung session Appium
+[ ] Tinh huong mat ADB truoc Start -> reconnect duoc hoac bao loi ro rang
+[ ] TikTok -> Log in -> Continue with Google (can cap nhat selectors.json)
+[ ] Google cho phep chon dung email; neu 2FA -> WAIT_VERIFY (tu kiem tra lai, khong can bam nut); khong vuot xac minh
+[ ] Kiem tra dung tai khoan TikTok tren thiet bi -> Xac nhan login
+[ ] Dem thoi gian tung may doc lap
+[ ] Stop 1 may khong lam stop may con lai; account dang cho duoc danh dau NEEDS_REVIEW
+[ ] Logout khi het phien va xac minh; neu khong ro thi dung WAIT_REVIEW
+[ ] Chi chuyen account tiep theo khi xac nhan Logout va hoan thanh phien
+[ ] Dong/mo lai chuong trinh; password kho dung mo vault; RESERVED/ACTIVE -> NEEDS_REVIEW
+[ ] Khong co thong tin mat khau Google trong activity.log

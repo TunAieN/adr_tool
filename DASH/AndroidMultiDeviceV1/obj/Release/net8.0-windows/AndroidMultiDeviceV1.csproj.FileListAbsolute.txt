@@ -1,0 +1,15 @@
+E:\AccV592\DASH\dist\Config\selectors.json
+E:\AccV592\DASH\dist\AndroidMultiDeviceV1.exe
+E:\AccV592\DASH\dist\AndroidMultiDeviceV1.deps.json
+E:\AccV592\DASH\dist\AndroidMultiDeviceV1.runtimeconfig.json
+E:\AccV592\DASH\dist\AndroidMultiDeviceV1.dll
+E:\AccV592\DASH\dist\AndroidMultiDeviceV1.pdb
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\AndroidMultiDeviceV1.GeneratedMSBuildEditorConfig.editorconfig
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\AndroidMultiDeviceV1.AssemblyInfoInputs.cache
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\AndroidMultiDeviceV1.AssemblyInfo.cs
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\AndroidMultiDeviceV1.csproj.CoreCompileInputs.cache
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\AndroidMultiDeviceV1.dll
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\refint\AndroidMultiDeviceV1.dll
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\AndroidMultiDeviceV1.pdb
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\AndroidMultiDeviceV1.genruntimeconfig.cache
+E:\AccV592\DASH\AndroidMultiDeviceV1\obj\Release\net8.0-windows\ref\AndroidMultiDeviceV1.dll

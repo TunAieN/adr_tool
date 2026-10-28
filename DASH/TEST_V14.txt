@@ -1,0 +1,11 @@
+KIEM THU V1.4 (khong dung tai khoan that khi chia se log)
+1. Sao luu %LOCALAPPDATA%\AndroidMultiDeviceV1; giu nguyen mat khau kho cu.
+2. Tai Excel mau, dien 1 hang Username | Email | Password, luu .xlsx.
+3. BUILD_RUN.bat, Mo kho, Nhap TXT / Excel, chon file .xlsx.
+4. Kiem tra bang co Username TikTok va Email Google khop, khong hien Password.
+5. Gan vao Phone 01, Start, xem da qua loi "Thieu TikTok handle" chua.
+6. Import lai file: bao trung, khong tao account moi.
+7. Thu nhap TXT username|email|password, thu username co @; thu email trung nhung username khac: bao xung dot, khong ghi de du lieu cu.
+8. Test tai kho cu: ban V1.3 account email|password chua co handle, nhap dong 3 truong cung email -> bo sung Username, khong doi status/password/device assignment.
+9. Chup log sai parser neu co, nhung khong gui email, mat khau, account-vault.json, hay Excel that.
+Luu y: chi dung tai khoan do ban so huu hoac duoc uy quyen, khong tu dong vuot captcha / han che tai khoan.

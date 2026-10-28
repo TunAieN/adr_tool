@@ -1,0 +1,26 @@
+STATE MANAGER V1.1 - CHAY LAN LUOT, KHONG DUNG MAT KHAU THUC TRONG LOG
+
+00. Backup %LOCALAPPDATA%\AndroidMultiDeviceV1, mo Appium Server co ANDROID_HOME.
+01. Nhap handle cho account A, gan Phone 01. Khoi dong TikTok chua login,
+    bam Start TRUC TIEP -> tu preflight nhan LoggedOut -> Google Login A, chi ACTIVE
+    sau khi doc Profile xac nhan handle A.
+02. De TikTok dang login A. Stop tool, mo tool lai, set account A AVAILABLE
+    sau khi kiem tra neu can. Start -> phai nhan expected -> dung session cu.
+03. A va B deu thuoc Phone 01, duoc phep, da co handle. De app dang login B,
+    co A AVAILABLE la account ke tiep. Start -> nhan B -> logout B -> doc
+    LoggedOut -> login A -> xac minh A. Quan sat bang Appium/log.
+04. De app login tai khoan X KHONG co trong kho Phone 01 -> WAIT_REVIEW;
+    KHONG tu logout va KHONG login A.
+05. De app hien Google chooser, CAPTCHA, 2FA, popup khong ro -> dung/an toan,
+    khong nhap them mat khau vao ngữ canh chua xac minh.
+06. Dung Start tren Phone 01 va Phone 02: 2 systemPort rieng, khong chong Appium.
+07. Bam Kiem tra rieng (tuy chon) khi Phone 01 dang Start -> khong duoc tao session thu hai.
+    Neu dang cho Google 2FA -> hoan tat tren dien thoai, tool tu verify trong 3 phut;
+    khong can nhan nut kiem tra lai login.
+08. Het thoi gian: logout xac minh roi COMPLETED. Neu logout khong xac minh ->
+    NEEDS_REVIEW, khong chuyen account tiep.
+09. Test restart Appium/ADB: sau khi rot ket noi, khong tu coi login la ACTIVE.
+10. Kiem tra kho va phan/gỡ van ton tai, mat khau khong xuat trong log.
+
+Luu y: selectors Profile handle, menu, logout co the thay doi theo phien ban
+TikTok. Neu UNKNOWN, dung Inspector lay chinh xac resource ID/handle.

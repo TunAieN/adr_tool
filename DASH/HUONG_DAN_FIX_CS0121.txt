@@ -1,0 +1,15 @@
+ANDROID MULTI-DEVICE V1.6.0.1 - FIX CS0121
+
+Loi: Core/ProfileUpdates.cs dong 204, string.Split(['\n','\r'],...) co overload mo ho trong C#.
+Sua: string.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).
+
+CAI BAN VA:
+1. Dong Android Multi-Device Manager.
+2. Sao luu thu muc source hien tai.
+3. Giai nen ZIP nay vao goc du an ANDROID_MULTI_DEVICE_V1_PROFILE_UPDATE_V160_FULL, ghi de file:
+   AndroidMultiDeviceV1/Core/ProfileUpdates.cs
+4. Chay lai BUILD_RUN.bat.
+
+KHONG can xoa/nhap lai kho tai khoan; file account-vault.json khong bi anh huong.
+Ban va chi sua 1 dong ma nguon, khong thay doi logic ho so.
+Kiem tra tai day: so sanh byte source va zip CRC; KHONG the xac nhan Windows dotnet build trong moi truong nay.
